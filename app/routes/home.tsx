@@ -1,14 +1,8 @@
-import { motion } from 'motion/react';
 import type { Route } from './+types/home';
 import { Hero } from '~/components/homepage/hero';
 import { Menu } from '~/components/homepage/menu';
 import { Stores } from '~/components/homepage/stores';
-import { LightRays } from '~/components/ui/light-rays';
-import { Pointer } from '~/components/ui/pointer';
 import { ProgressiveBlur } from '~/components/ui/progressive-blur';
-import { DotPattern } from '~/components/ui/dot-pattern';
-import { cn } from '~/lib/utils';
-import { SmoothCursor } from '~/components/ui/smooth-cursor';
 import { ShootingStars } from '~/components/ui/shooting-stars';
 import { StarsBackground } from '~/components/ui/stars-background';
 import { Spotlight } from '~/components/ui/spotlight-new';
